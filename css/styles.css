@@ -3,8 +3,23 @@ header{
     background-image: url('../assets/backgrounds/h_img.jpg');
     height: 100vh;
     text-align: center;
-    /* color: white;
-    padding-top: 420px;
-    word-spacing: 3px; */
+    color: white;
+    padding-top: 150px;
+    word-spacing: 3px;
 
+}
+.h1{
+    padding: 30px;
+}
+.mouse{
+    padding: 200px;
+}
+
+#services{
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    height: 50vh;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    
 }
