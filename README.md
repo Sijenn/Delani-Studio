@@ -6,7 +6,7 @@ This is webpage that links the clients with the sotfware developers.It enables t
 
 |Behaviour                     |  Input              |   Output
 -------------------------------|---------------------|---------------
-Key in your name               |Key in your name     |    |
+Send us a message              |Key in your name     |   Your message has been recieved. |
 
 
 
