@@ -1,99 +1,196 @@
  /************** HEADER ***********************************/
- 
+
  header {
-  background-image: url('../assets/backgrounds/h_img.jpg');
-  height: 100vh;
-  text-align: center;
-  color: white;
-  padding: 5px;
-  word-spacing: 3px;
-  line-height: 30px;
+   background-image: url('../assets/backgrounds/h_img.jpg');
+   height: 100vh;
+   text-align: center;
+   color: white;
+   padding: 5px;
+   word-spacing: 3px;
+   line-height: 30px;
+ }
+
+ .h1 {
+   padding: 30px;
+ }
+
+ .mouse{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 5vh;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #000;
+  animation: bounce 0.7s linear infinite;
 }
 
-.h1 {
-  padding: 30px;
-}
+ .logo {
+   text-align: center;
+ }
 
-.mouse {
-  padding: 20px;
-}
-.logo{
-  text-align: center;
-}
-/************* SERVICES *******************************/
-#services {
-  background-image: url("../assets/backgrounds/s_image.jpg");
-  height: 50vh;
-  text-align: center;
-  color: white;
-  padding-top: 50px;
-  line-height: 40px;
-}
+ /************* SERVICES *******************************/
+ #services {
+   background-image: url("../assets/backgrounds/s_image.jpg");
+   height: 50vh;
+   text-align: center;
+   color: white;
+   padding-top: 50px;
+   line-height: 40px;
+ }
 
-/************* PORTFOLIO ****************************************/
-#portfolio img{
-  width: 20;
-} 
-.port{
-  
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-}
+ /************* PORTFOLIO ****************************************/
+ /* #portfolio img {
+   width: 20;
+ }
 
-#portfolio div:hover img{
+
+ .port{
+   margin-bottom: 10px;
+   position: relative;
+   overflow: hidden;
+ }
+
+ #portfolio div:hover img{
   transform: scale(1.4);
 }
-.here{
-  transform: translateX(0) rotate(0deg);
-  border: none;
-}
-/************* WHAT WE DO ***********************/
-.tgl p{
-  display: none;
-} 
-#whatwedo {
-  text-align: center;
+
+
+.folio{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.63);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 30;
+  transform: translateX(-102%) rotate(45deg);
+  transition: all 0.3s ease;
+  border: 2px solid rgb(255, 255, 255);
 }
 
-/*********** CONTACTS ********************************************/
-#contact{
-  background-image: url('../assets/backgrounds/c_image.jpg');
-  padding: 20px 5px;
-  color: white;
+ .here {
+   transform: translateX(0) rotate(0deg);
+   border: none;
+ } */
+
+ /************* WHAT WE DO ***********************/
+ .tgl p {
+   display: none;
+ }
+
+ #whatwedo {
+   text-align: center;
+ }
+
+ /*********** CONTACTS ********************************************/
+ #contact {
+   background-image: url('../assets/backgrounds/c_image.jpg');
+   /* padding: 20px 5px; */
+   color: white;
+   text-align: center;
+ }
+
+ .message {
+   padding: 3px 15px;
+   margin: 7px 2px;
+   width: 700px;
+   max-width: 89%;
+ }
+
+ form {
+   width: 700px;
+   max-width: 90%;
+ }
+
+ ::placeholder {
+   color: rgb(204, 204, 204);
+ }
+
+ form input {
+   width: 49%;
+ }
+
+ form input,form textarea {
+   background: transparent;
+   border: 1px solid white;
+   color: white;
+   transition: all 0.2s ease;
+   padding: 7px;
+ }
+
+ form textarea {
+   margin-top: 20px;
+   width: 98.8%;
+ }
+
+ form input:focus,
+ textarea:focus {
+   background: rgba(200, 0, 0);
+   border: transparent;
+   transform: scale(1.03);
+ }
+
+ form input[type=submit] {
+   background: blue;
+ }
+
+ /***************************** PORTFOLIO ****************************************/
+
+
 }
-.message{
-  padding: 3px 15px;
-  margin: 7px 2px;
-  width: 700px;
-  max-width: 89%;
+.port1:hover{
+    opacity:0.7;
 }
-form{
-  width: 700px;
-  max-width: 90%;
+.port2:hover{
+    opacity:0.7;
 }
-::placeholder{
-  color: rgb(204, 204, 204);
+.port3:hover{
+    opacity:0.7;
 }
-form input{
-  width:49%;
+.port4:hover{
+    opacity:0.7;
 }
-form input, form textarea{
-  background: transparent;
-  border: 1px solid white;
-  color: white;
-  transition: all 0.2s ease;
-  padding: 7px;
+.port5:hover{
+    opacity:0.7;
 }
-form textarea{
-  margin-top: 20px;
-  width: 98.8%;
+.port6:hover{
+    opacity:0.7;
 }
-form input:focus, textarea:focus{
-  background: rgba(200, 0, 0);
-  border: transparent;
-  transform: scale(1.03);
+.port7:hover{
+    opacity:0.7;
 }
-form input[type=submit]{
-  background: blue;
+.port8:hover{
+    opacity:0.7;
 }
+.folio p{
+    text-transform: uppercase;
+    display: none;
+}
+.folio1 p{
+    text-transform: uppercase;
+    display: none;
+}
+.folio2 p{
+    text-transform: uppercase;
+    display: none;
+}
+.folio3 p{
+    text-transform: uppercase;
+    display: none;
+}
+.folio4 p{
+    text-transform: uppercase;
+    display: none;
+}
+.folio5 p{
+    text-transform: uppercase;
+    display: none;
+}
+.folio6 p{
+    text-transform: uppercase;
+    display: none;
+}
+.folio7 p{
+    text-transform: uppercase;
+    display: none;
+}
+ 
