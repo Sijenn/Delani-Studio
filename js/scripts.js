@@ -34,19 +34,16 @@ $(document).ready(function() {
 });
 
 /************** PORTFOLIO ********************************/
-// $(document).ready(function(){
-// $(".folio").removeClass("here");
-// $(".port").mouseover(function () {
-//   $(this).children(".folio").addClass("here");
-// });
-// $(".port").mouseleave(function () {
-//   $(this).children(".folio").removeClass("here").fadeIn;
-
-// });
-// })
-
-// $(document).ready(function(){
-// $(".port").hover(function () {
-//   $(this).children(".folio").fadeToggle(1000, "linear");
-// });
-// })
+  $(document).ready(function() {
+  $(".folio").hover(function(){
+    $(".folio p").show().css({
+      "position":"absolute",
+      "color": "white",
+      "top": "50%",
+      "left": "30%"
+    });
+  });
+  $(".folio").mouseleave(function (){
+    $(".folio p").hide();
+  });
+})
