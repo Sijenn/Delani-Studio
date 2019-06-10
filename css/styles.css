@@ -194,3 +194,19 @@
     display: none;
 }
  
+/******************** CONTACTS ************************************/
+#contacts{
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+
+/******************** FOOTER ****************************/
+footer img:hover{
+  transform: scale(0.8);
+  padding: 3px;
+  margin: -3px;
+  background: rgb(0, O, 0);
+  box-shadow: 0 0 20px rgb(200, 0, 0);
+}
+
