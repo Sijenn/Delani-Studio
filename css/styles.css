@@ -31,7 +31,7 @@
 }
 
 /************* PORTFOLIO ****************************************/
-/* #portfolio img{
+#portfolio img{
   width: 100%;
 }
 .port{
@@ -47,7 +47,14 @@
 .here{
   transform: translateX(0) rotate(0deg);
   border: none;
-} */
+}
+
+.tgl p{
+  display: none;
+} 
+#whatwedo {
+  text-align: center;
+}
 
 /*********** CONTACTS ********************************************/
 #contact{
@@ -83,33 +90,10 @@ form textarea{
   width: 98.8%;
 }
 form input:focus, textarea:focus{
-  background: rgba(0, 0, 0, 0.733);
+  background: rgba(200, 0, 0);
   border: transparent;
   transform: scale(1.03);
 }
 form input[type=submit]{
   background: blue;
- 
-/***************** FOOTER SECTION*********************/
-footer{
-  padding-top: 40px;
-}
-footer img{
-  border-radius: 50%;
-  transition: 0.2s ease-out;
-}
-footer img:hover{
-  transform: scale(0.8);
-  padding: 3px;
-  margin: -3px;
-  background: cyan;
-  box-shadow: 0 0 20px rgb(184, 49, 12);
-} 
-
-/**********************************/
-#wwd{
-  text-align: center;
-}
-.tgl p{
-  display: none;
 }

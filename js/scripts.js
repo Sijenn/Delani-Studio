@@ -2,36 +2,36 @@
 /************************* WHAT WE DO ***************************************************/
 $(document).ready(function(){
   $(".tgl p").hide();
-$("#dsn").click(function(){
-    $("#dsn img").toggle();
-   $("#dsn p").toggle();
+$("#design").click(function(){
+    $("#design img").toggle();
+   $("#design p").toggle();
 });
-$("#dvpt").click(function(){
-  $("#dvpt img").toggle();
- $("#dvpt p").toggle();
+$("#develop").click(function(){
+  $("#develop img").toggle();
+ $("#develop p").toggle();
 });
-$("#mngt").click(function(){
-  $("#mngt img").toggle();
- $("#mngt p").toggle();
+$("#management").click(function(){
+  $("#management img").toggle();
+ $("#management p").toggle();
 });
-/******************* PORTFOLIO *************************************/
-$(document).ready(function() {
-  $('.text').hide();
-  $('img').animate({
-      opacity:1
-      
-  });
-
-  $('img').hover(function() {
-      $(this).stop().animate({opacity:4},200);
-      $('.text').fadeIn();
-
-  }, function() {
-      $(this).stop().animate({opacity:1},500)
-      $('.text').fadeOut();
-  });
-
 })
+
+/******************* PORTFOLIO *************************************/
+// $(document).ready(function() {
+//   $('.text').hide();
+//   $('img').animate({
+//       opacity:1
+      
+//   });
+
+//   $('img').hover(function() {
+//       $(this).stop().animate({opacity:4},200);
+//       $('.text').fadeIn();
+
+//   }, function() {
+//       $(this).stop().animate({opacity:1},500)
+//       $('.text').fadeOut();
+//   });
 
 /*************** FORM SUBMISSION *********************************/
 $("#submission").submit(function(event){
@@ -48,5 +48,21 @@ $("#submission").submit(function(event){
   event.preventDefault();
 });
 
-});
 
+/************** PORTFOLIO ********************************/
+// $(document).ready(function(){
+// $(".folio").removeClass("here");
+// $(".port").mouseover(function () {
+//   $(this).children(".folio").addClass("here");
+// });
+// $(".port").mouseleave(function () {
+//   $(this).children(".folio").removeClass("here").fadeIn;
+
+// });
+// })
+
+// $(document).ready(function(){
+// $(".port").hover(function () {
+//   $(this).children(".folio").fadeToggle(1000, "linear");
+// });
+// })
