@@ -16,7 +16,7 @@ This is webpage that links the clients with the sotfware developers.It enables t
 
 
 ## Project live site
-Link to deployed site
+* https://sijenn.github.io/delani-studio/
 
 ## Contact Details.
 Incase of any questions, reach me at:
