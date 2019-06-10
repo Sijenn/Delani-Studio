@@ -37,41 +37,6 @@
    padding-top: 50px;
    line-height: 40px;
  }
-
- /************* PORTFOLIO ****************************************/
- /* #portfolio img {
-   width: 20;
- }
-
-
- .port{
-   margin-bottom: 10px;
-   position: relative;
-   overflow: hidden;
- }
-
- #portfolio div:hover img{
-  transform: scale(1.4);
-}
-
-
-.folio{
-  position: absolute;
-  background: rgba(255, 255, 255, 0.63);
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  z-index: 30;
-  transform: translateX(-102%) rotate(45deg);
-  transition: all 0.3s ease;
-  border: 2px solid rgb(255, 255, 255);
-}
-
- .here {
-   transform: translateX(0) rotate(0deg);
-   border: none;
- } */
-
  /************* WHAT WE DO ***********************/
  .tgl p {
    display: none;
@@ -228,3 +193,6 @@ form input:focus, textarea:focus{
   transform: scale(1.03);
 }
 
+.about {
+  text-align: center;
+}
