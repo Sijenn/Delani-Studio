@@ -4,9 +4,9 @@ This is webpage that links the clients with the sotfware developers.It enables t
 * By Jenniffer.
 
 
-|Behaviour                     |  Input       |    Output
--------------------------------|--------------|-----------------------
-Key in your name
+|Behaviour                     |  Input              |   Output
+-------------------------------|---------------------|---------------
+Key in your name               |Key in your name     |    |
 
 
 
