@@ -199,6 +199,7 @@
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-size: cover;
   height: 50vh;
+
 }
 
 .icons{
@@ -208,6 +209,7 @@
 
 .form{
   text-align: center;
+  
 }
 /******************** FOOTER ****************************/
 footer img:hover{
@@ -216,5 +218,13 @@ footer img:hover{
   margin: -3px;
   background: rgb(0, O, 0);
   box-shadow: 0 0 20px rgb(200, 0, 0);
+}
+
+
+
+form input:focus, textarea:focus{
+  background: rgba(0, 0, 0, 0.733);
+  border: transparent;
+  transform: scale(1.03);
 }
 
