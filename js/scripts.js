@@ -16,7 +16,7 @@ $("#management").click(function(){
 });
 })
 
-/*************** FORM SUBMISSION *********************************/
+/*************** FORM SECTION*********************************/
 $(document).ready(function() {
   $("form#contacts").submit(function(event) {
 
