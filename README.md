@@ -1,4 +1,4 @@
-## DELANI STUDIO.
+# DELANI STUDIO.
 
 This is webpage that links the clients with the sotfware developers.It enables the developer to determine the clients's views on his/her own projects.
 * By Jenniffer.
@@ -7,7 +7,7 @@ This is webpage that links the clients with the sotfware developers.It enables t
 |Behaviour                     |  Input              |   Output
 -------------------------------|---------------------|---------------
 Send us a message              |Key in your name     |   Your message has been recieved. |
-
+                              |and email address     |
 
 
 ## Technologies used
